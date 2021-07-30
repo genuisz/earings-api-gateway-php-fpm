@@ -14,7 +14,7 @@
 
 ARG LARADOCK_PHP_VERSION
 ARG BASE_IMAGE_TAG_PREFIX=latest
-FROM laradock/php-fpm:7.3
+FROM laradock/php-fpm:latest-7.3
 
 LABEL maintainer="Mahmoud Zalt <mahmoud@zalt.me>"
 
